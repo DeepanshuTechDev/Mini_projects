@@ -1,0 +1,67 @@
+body{
+    background-color: #000000;
+}
+.innercontainer{
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 264px;
+    left: 550px;
+    top: 150px;
+    background: #171515;
+    border: 1px solid #000000;
+    box-shadow: 0px 5px 4px #8F8989;
+    border-radius: 47px;
+    overflow: hidden;
+}
+.time{
+    position: absolute;
+    /* width: 274px;
+    height: 69px; */
+    left: 84px;
+    top: 119px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(50% 50% at 50% 50%, #FD5E04 99.99%, rgba(250, 125, 10, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin:auto;
+   
+}     
+#logoimg{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+#text{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.controls{
+    width:250px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.controlimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.circle:hover{
+    background: radial-gradient(50% 50% at 50% 50%, #fdbb04 99.99%, rgba(250, 125, 10, 0) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}

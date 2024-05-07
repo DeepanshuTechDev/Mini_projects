@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.canvas{
+    overflow: hidden;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(188, 209, 226, 0.281);
+    border-radius: 20px;
+}
+.canvas2{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    font-family: lemon;
+    text-transform:uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#white{
+    background-color: #fff;
+    border: none;
+    
+}
+#grey{
+    background-color:grey;
+    border: none;
+}
+#yellow{
+    background-color:yellow;
+    border: none;
+}
+#blue{
+    background-color:blue;
+    border: none;
+}
+#red{
+    background-color:red;
+    border: none;
+}
+#purple{
+    background-color:purple;
+    border: none;
+}

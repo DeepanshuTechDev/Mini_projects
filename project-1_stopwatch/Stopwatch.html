@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+<body>
+        <div class="innercontainer">
+            <div class="circle" id="circle1">
+                <img src="./images/stopwatch.png" id="logoimg" width="40px" alt="">
+            </div>
+            <p id="text">Stopwatch</p>
+            <div class="time">
+                <span class="minutes">00</span> : <span class="seconds">00</span> : <span class="milliseconds">00</span>
+            </div>
+           <div class="controls">
+            <div class="circle" id="Stop">
+                <img src="./images/stop.png" title="Stop" class="controlimg" width="30px" alt="">
+            </div>
+            <div class="circle" id="Start">
+                <img src="./images/power.png" title="Start" class="controlimg" width="30px" alt="">
+            </div>
+            <div class="circle" id="Reset">
+                <img src="./images/reset.png" title="Reset" class="controlimg" width="30px" alt="">
+            </div>
+           </div>
+        </div>
+        <script src="stopwatch.js"></script>
+</body>
+</html>
